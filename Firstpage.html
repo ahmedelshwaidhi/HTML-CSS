@@ -12,6 +12,11 @@ body{
   background-size: cover;
   background-attachment: fixed;
 
+
+}
+.picture {
+  border: 3px solid pink;
+
 }
 
 
@@ -19,10 +24,12 @@ h1 {
 font-size: 300px;
 }
 .color {
- color: White ;
+ color: white ;
 }
 .anothercolor {
 color: white;
+padding: 2px;
+
 }
 #main {
  width: 70%;
@@ -31,15 +38,18 @@ color: white;
 h1 ,p2 {
   text-align: center;
 }
+h1{
+  color: pink;
+}
 button{
   margine: 60 auto 140px;
   display: block;
-  font-size: 30px;
-  border: none;
-  border-radius: 5px;
-  padding: 20px 20px;
-  align-items: center;
-  background-color: white;
+  font-size: 20px;
+  border: dotted pink;
+  border-radius: 9px;
+  padding: 10px;
+
+background-color: white;
   color:#506494;
 
 }
@@ -61,6 +71,7 @@ h3 {
 a{
    color: white;
   font-weight: lighter;
+  text-align: center;
 }
 .Design{
   background-color: grey;
@@ -72,27 +83,40 @@ a{
 
   }
 .input-group{
-  margin:0px auto;
-  color: black;
+background-color: pink;
+  color: white;
   font-weight: lighter;
   font-size: 30px;
   text-align: right;
   float: left;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+align-items: center;
+display: inline;
+text-align: center;
+border: 3px dotted white;
 
 
 }
 .title {
-   background-color:white;
+   background-color:transparent;
 
   font-size: 40px;
-  color:#506494;
+  color:white;
 
-  padding: 8px 0px;
+  padding: 10px;
   display: inline-block;
-  border-radius: 50px;
+  border: 9px dashed pink;
 }
 .a{
-font-size: 25px;
+
+  color: white;
+font-size: 25px ;
+border: 1px solid white;
+float: left;
 
 }
 
@@ -122,22 +146,24 @@ font-size: 25px;
             <input type="password" name="" value="" placeholder="Password" >
               </div>
 
-              <div class="input-group">
-                <label >Confirm Password</label>
-                <input type="Email" name="" value="" placeholder="Confirm Password">
-                  </div>
-                  <input type="submit" name="submit" value="Register">
+        <div class="input-group">
+      <label >Confirm Password</label>
+      <input type="Email" name="" value="" placeholder="Confirm Password">
+      </div>
+
+      <input type="submit" name="submit" value="Register">
+<div class="a">
+
+      <label >I agree to  <a href="https://www.prolificlondon.co.uk/sites/prolificlondon.co.uk/files/styles/hero/public/tandcs.png?itok=LQWYiSuL" target="_blank">these terms</a>
+                  </label>
+                   <input type="checkbox" name="" value=""  >
 
 
-                  <div class="a">
-                    <p>I agree to the <a href="#">Terms</a>
-                    </p>
-                    <input type="checkbox" name="" value=""  >
                       </div>
     </form>
 
 
-    <img  height="300px" width="400px"src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Libya_location_map.svg/2300px-Libya_location_map.svg.png" alt="libya" font-size: 200px>
+    <img class="picture" height="300px" width="400px"src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Libya_location_map.svg/2300px-Libya_location_map.svg.png" alt="libya" font-size: 200px>
 <button type="button" name="button">Read me</button>
 <p3 class="anothercolor"><a href="https://en.wikipedia.org/wiki/Libya" target="_blank"> LIBYA </a>, officially the State of Libya, is a country in the Maghreb region in North Africa, bordered by the Mediterranean Sea to the north, Egypt to the east, Sudan to the southeast, Chad to the south, Niger to the southwest, Algeria to the west, and Tunisia to the northwest. Wikipedia</p3>
 
